@@ -1,0 +1,35 @@
+{% extends 'home.base.html.twig' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block body %}
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+        <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+            <a href="https://github.com/reiterus/api-starter-symfony"
+               class="d-flex align-items-center text-dark text-decoration-none">
+                <span class="fs-4"><small>api-starter-symfony</small></span>
+            </a>
+        </header>
+
+        <main>
+            <h1>{{ title }}</h1>
+            <p class="fs-5 col-md-8">
+                Get started quickly and easily
+                with this starter project
+                with some basic REST API functions
+                based on Symfony 5.4
+            </p>
+
+            <div class="mb-5">
+                <a href="https://github.com/reiterus/api-starter-symfony"
+                   class="btn btn-primary btn-lg px-4">
+                    Go to GitHub
+                </a>
+            </div>
+
+        </main>
+        <footer class="pt-5 my-5 text-muted border-top">
+            Created by Reiterus &copy; 2022
+        </footer>
+    </div>
+{% endblock %}

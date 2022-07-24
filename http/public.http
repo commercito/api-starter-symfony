@@ -1,0 +1,4 @@
+GET http://api.start.symfony/api
+Accept: application/json
+
+###
